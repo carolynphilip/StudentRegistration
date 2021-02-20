@@ -1,0 +1,90 @@
+body {
+    margin: auto;
+    width: 500px;
+}
+table {
+	border-spacing: 0px;
+}
+
+th, td {
+	border: 1px solid;
+	text-align: center;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+input, textarea, select {
+    padding: 10px;
+    border-radius: 3px;
+    width: 250px;
+    margin: 5px 0px 10px 0px;
+	vertical-align: middle;
+}
+
+#buttonAdd {
+    padding: 10px;
+    text-decoration: none;
+	color: #000000;
+    border-radius: 3px;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+
+form, table {
+    padding-top: 7px;
+    margin: auto;
+    text-align: right;
+	width: 400px;
+    padding: 10px 30px 20px 20px;
+    border-radius: 3px;
+}
+
+.regForm, .regTable {
+   width: unset;
+   padding: unset;
+   text-align: center;
+}
+
+.regForm th, .regForm td {
+	border: unset;
+	text-align: center;
+}
+
+.regForm button {
+    float: right;
+    background: none;
+    border: none;
+}
+
+.errorInfo {
+  margin-bottom: 10px;
+}
+.errorInfo span {
+  background: lightcoral;
+  color: white;
+  padding: 10px 5px;
+}
+
+ul li{
+    color: inherit;
+}
+
+ul li{
+    display: inline;
+	font-weight: bold;
+    padding: 10px 10px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+
+#btnSubmit {
+    border-radius: 15px;
+}
+.noborder {
+	border: none;
+}
