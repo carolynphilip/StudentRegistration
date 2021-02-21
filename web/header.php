@@ -5,7 +5,7 @@
 </head>
 <body>
     <h2>Student Course Registration</h2>
-    <div>
+    <div class="navTab">
         <ul class="menu-list">
             <li><a href="index.php">Student</a></li>
             <li><a href="index.php?action=course">Course</a></li>

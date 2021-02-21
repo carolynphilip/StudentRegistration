@@ -1,10 +1,7 @@
 <?php
-require_once ("class/DBController.php");
 require_once ("class/Student.php");
 require_once ("class/Registration.php");
 require_once ("class/Course.php");
-
-$db_handle = new DBController();
 
 $action = "";
 if (! empty($_GET["action"])) {

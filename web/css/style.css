@@ -2,6 +2,11 @@ body {
     margin: auto;
     width: 500px;
 }
+
+.navTab {
+	text-align: center;
+}
+
 table {
 	border-spacing: 0px;
 }
@@ -12,6 +17,7 @@ th, td {
 }
 
 h2, h3 {
+	margin: 20px;
     text-align: center;
 }
 
@@ -27,7 +33,7 @@ input, textarea, select {
     padding: 10px;
     text-decoration: none;
 	color: #000000;
-    border-radius: 3px;
+    border-radius: 20px;
     border-style: solid;
     margin-bottom: 10px;
 }
@@ -61,6 +67,7 @@ form, table {
 .errorInfo {
   margin-bottom: 10px;
 }
+
 .errorInfo span {
   background: lightcoral;
   color: white;
@@ -69,9 +76,6 @@ form, table {
 
 ul li{
     color: inherit;
-}
-
-ul li{
     display: inline;
 	font-weight: bold;
     padding: 10px 10px;
